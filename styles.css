@@ -447,11 +447,6 @@ img {
         margin-right: 10px;
     }
 
-    .barra-navegacao nav ul li a {
-        font-size: 14px;
-        padding: 8px 10px;
-    }
-
     header {
         padding: 20px;
     }
@@ -497,11 +492,6 @@ img {
     gap: 10px;
     margin-top: 20px;
   }
-
-    #projetos,
-    .secao {
-        padding: 60px 20px;
-    }
 
     .seta-direita svg {
         width: 50px;
