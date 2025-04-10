@@ -131,7 +131,7 @@ a {
 .titulo-secao::after {
     content: "";
     position: absolute;
-    left: 0;
+    left: 50px;
     bottom: -15px;
     width: 100px;
     height: 4px;
@@ -151,6 +151,11 @@ a {
     overflow: hidden;
     position: relative;
 }
+
+#projetos .titulo-secao {
+    padding-left: 50px;
+}
+
 
 #projetos::before {
     content: "";
@@ -271,13 +276,13 @@ a {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .formulario-contato form {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .formulario-contato label {
