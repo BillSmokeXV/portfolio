@@ -270,6 +270,7 @@ a {
 
 /* Contato */
 .formulario-contato {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     background-color: black;
     padding: 20px;
     margin-bottom: 20px;
@@ -333,7 +334,6 @@ a {
 .caixa-texto-contato p {
     font-size: 30px;
     color: white;
-    margin-bottom: 10px;
 }
 
 .seta-direita {
@@ -435,6 +435,10 @@ img {
 
 /* Responsivo */
 @media (max-width: 768px) {
+    .seta-direita svg {
+        transform: rotate(90deg); /* total: 180 graus → seta para baixo */
+    }
+
     .barra-navegacao {
         padding: 10px;
     }
@@ -477,16 +481,8 @@ img {
     }
 
     .formulario-contato {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 0 20px;
-    }
-
-    .formulario-contato form {
         width: 100%;
-        max-width: 400px;
+        margin-bottom: 20px;
     }
 
     /* Centraliza os botões de contato (WhatsApp, Email, etc) */
