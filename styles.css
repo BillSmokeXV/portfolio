@@ -35,10 +35,24 @@ html, body {
     box-shadow: 0 2px 6px rgba(0,0,0,0.4);
 }
 
-.barra-navegacao nav ul {
+.barra-navegacao ul {
     display: flex;
     gap: 40px;
     list-style: none;
+    align-items: center;
+}
+
+.barra-navegacao ul li {
+    list-style: none;
+}
+
+.barra-navegacao ul li a {
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+}
+
 }
 
 header ul li a {
